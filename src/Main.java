@@ -1,5 +1,5 @@
 public class Main {
     public static void main(String[] args) throws Exception{
-        Person person = new Person();
+        Person.method("dima222", "1234j","1234jj");
     }
 }
