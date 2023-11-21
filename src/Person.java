@@ -17,9 +17,10 @@ public class Person {
             }
             return true;
         } catch (WrongLoginException e) {
-            throw new WrongLoginException();
+            e.toString();
         } catch (WrongPasswordException e) {
-            throw new WrongPasswordException();
+            e.toString();
         }
+        return false;
     }
 }
